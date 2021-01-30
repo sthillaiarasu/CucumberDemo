@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.377">
+<testcase classname="Facebook login validation" name="Facebook login with valid password" time="0.054">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given Enter the Facebook URL................................................failed
+When enter the username and password........................................skipped
+Then validate the login.....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at Stepdef.Base.openURL(Base.java:38)
+	at Stepdef.FirstClass.enter_the_facebook_url(FirstClass.java:19)
+	at ✽.Enter the Facebook URL(file:///C:/Users/thill/eclipse-workspace/Ccucumber/src/test/resources/Features/Facebook.feature:4)
+]]></failure>
+</testcase>
+</testsuite>
